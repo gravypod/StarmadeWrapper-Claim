@@ -119,4 +119,9 @@ public class ClaimCommand extends Command {
 		return mats[id];
 	}
 	
+	@Override
+	public String getHelp() {
+		return "!claim (money [optional]): Claim a reward for voting on starmade-server. Rewards with blocks by default.";
+	}
+	
 }
